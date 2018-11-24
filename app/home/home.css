@@ -1,0 +1,89 @@
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: auto;
+  }
+.watercontainer{
+  background-color: #e6ffff;
+  text-align-last: center;
+}
+.aircontainer{
+  background-color: #f2ffe6;
+  text-align-last: center;
+}
+.panel-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+
+
+}
+  img{max-width:50px;
+  width: 100%;
+  height: auto;}
+  *{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
+.my-list {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #f5efef; */
+  float: left;
+  margin: 15px 0;
+  /* border-radius: 5px; */
+  /* box-shadow: 2px 3px 0px #e4d8d8; */
+  position:relative;
+  overflow:hidden;
+}
+.my-list h3{
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin: 0px;
+  padding: 0px;
+  /* border-bottom: 1px solid #ccc4c4; */
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  }
+  .my-list span{float:left;font-weight: bold;}
+  .my-list span:last-child{float:right;}
+  .my-list .offer{
+  width: 100%;
+  float: left;
+  margin: 5px 0;
+  border-top: 1px solid #ccc4c4;
+  margin-top: 5px;
+  padding-top: 5px;
+  color: #333333;
+  }
+
+  .contact-form{
+    margin: auto;
+    width: 100%;
+    border: 3px solid #e6fff5;
+    padding: 10px;
+    background-color: #e6ffff;
+
+    
+  }
+ .waterlist{
+  background-color: #e6ffff;
+
+
+ }
+
+ .airlist{
+  background-color: #f2ffe6;
+ }
+
+ h3 {
+  color: black;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+ }
+ .form-group {
+  text-align: center;
+}
+
+ .button{
+   position: absolute;
+   top:50%;
+ }
