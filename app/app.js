@@ -4,7 +4,8 @@
 angular.module('webApp', [
   'ngRoute',
   'webApp.home',
-  'webApp.product'
+  'webApp.product',
+  'webApp.inception'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
