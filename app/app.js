@@ -7,8 +7,9 @@ angular.module('webApp', [
   'webApp.product',
   'webApp.inception',
   'webApp.ferry',
-  'webApp.harry'
-  // 'webApp.core'
+  'webApp.harry',
+  'webApp.villaem',
+  'webApp.petit'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
