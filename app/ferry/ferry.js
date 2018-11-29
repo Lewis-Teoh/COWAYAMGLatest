@@ -9,6 +9,6 @@ angular.module('webApp.ferry', ['ngRoute'])
 		});
 	}])
 
-	.controller('InceptionCtrl', ['$scope', , function ($scope) {
+	.controller('FerryCtrl', ['$scope', , function ($scope) {
 
     }]);

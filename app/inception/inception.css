@@ -73,6 +73,12 @@ header{
     font-size: 100px;
 }
 
+.header1{
+    font-family: 'Rubik', sans-serif;
+    color:#8cb3d9;
+    font-size: 70px;
+}
+
 img{max-width:50px;
     width: 100%;
     height: auto;}
