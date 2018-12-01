@@ -28,3 +28,13 @@
   content: "";
   padding: 0;
 }
+
+.white-fluid{
+  background-color:#F7F7F7;
+}
+
+.whitedivision {
+  width: 100%;
+  height: 50px;
+  background-color :#F7F7F7;
+}

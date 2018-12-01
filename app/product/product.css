@@ -1,5 +1,5 @@
 .spec{
-    background-color :#8cb3d9;
+    background-color :#788E82;
     width: 100%;
 }
 
@@ -16,7 +16,7 @@
 .division {
     width: 100%;
     height: 50px;
-    background-color :#8cb3d9;
+    background-color :#788E82;
 }
 
 .responsive {
@@ -31,13 +31,6 @@
     text-align: center;
 }
 
-#hungry {
-    background:url('res/no1.webp') no-repeat center center ;
-    background-size:cover;
-    width:100%;
-    padding-top:20%;
-    padding-bottom:20%;
-}
 .container-fluid{
     background-color: #ecf0f9;
 }
@@ -63,10 +56,10 @@ p{
     font-family: 'Rubik', sans-serif;
 }
 
-.specandpriceheader{
+.specandpriceheader1{
     padding-left: 10%;
     font-family: 'Rubik', sans-serif;
-    color:#2554C3;
+    color:white;
 
 }
 
