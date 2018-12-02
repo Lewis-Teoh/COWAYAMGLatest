@@ -6,7 +6,7 @@
 
 </head>
 
-<body ng-controller="CoreCtrl">
+<body ng-controller="LucyCtrl">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#home">Coway</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -162,7 +162,7 @@
                 </div>
             </div>
 
-            
+
 
         </div>
 
@@ -225,7 +225,7 @@
                             <br />
                             <br />
                             Power Consumption : Cooler : 1.1 A Heater : 260 ~ 300w
-                            <br/>
+                            <br />
                             Dimension : 300 mm (W), 500 mm (D), 1291 mm (H)</p>
                     </div>
 
@@ -236,8 +236,99 @@
         </div>
 
         <div class="division"></div>
+        <div class="contact-form">
 
+            <form role="form" name="orderForm" ng-submit="createOrder()" novalidate="">
+                <h3>Order Form</h3>
+                <div class="row">
+                    <div class="col-sm-2">
 
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group" ng-class="{'has-error' : orderForm.nameTxt.$invalid && !orderForm.nameTxt.$touched}">
+                            <input type="text" name="nameTxt" ng-model="orders.nameTxt" class="form-control"
+                                placeholder="Your Name *" ng-minlength="5" value="" />
+                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.titleTxt.$touched">Please
+                                enter a valid name.</small>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error' : orderForm.emailTxt.$invalid && !orderForm.emailTxt.$touched}">
+                            <input type="email" name="emailTxt" ng-model="orders.emailTxt" class="form-control"
+                                placeholder="Your Email *" ng-minlenth="8" value="" />
+                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.titleTxt.$touched">Please
+                                enter a valid email.</small>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error' : orderForm.phoneNoTxt.$invalid && !orderForm.phoneNoTxt.$touched}">
+                            <input type="number" name="phoneNoTxt" ng-model="orders.phoneNoTxt" class="form-control"
+                                placeholder="Your Phone Number *" ng-minlength="10" value="" />
+                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.phoneNoTxt.$touched">Please
+                                enter a valid phone number.</small>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error' : orderForm.productCodeTxt.$invalid && !orderForm.productCodeTxt.$touched}">
+                            <input type="text" name="productCodeTxt" ng-model="orders.productCodeTxt" class="form-control"
+                                placeholder="I'm Interested in Coway (Product number) *" value="" />
+                        </div>
+                        <div class="form-group" ng-class="{'has-error' : orderForm.addressTxt.$invalid && !orderForm.addressTxt.$touched}">
+                            <input type="text" name="addressTxt" ng-model="orders.addressTxt" class="form-control"
+                                placeholder="Your Address *" ng-minlength="10" value="" />
+                            <small class="help-block" ng-show="orderForm.addressTxt.$error.minlength && orderForm.addressTxt.$touched">Please
+                                enter a valid address.</small>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error' : orderForm.messageTxt.$invalid && !orderForm.messageTxt.$touched}">
+                            <input type="text" name="messageTxt" ng-model="orders.messageTxt" class="form-control"
+                                value="Your Message" placeholder="Your Message *" ng-minlength="5" />
+                        </div>
+                        <small class="help-block" ng-show="orderForm.messageTxt.$error.minlength && orderForm.messageTxt.$touched">Please
+                            enter a valid message.</small>
+                        <div class="form-group">
+                            <button type="submit" ng-click="reset()" class="btn btn-primary" ng-disabled="orderForm.$invalid">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contactdivision"></div>
+        <div class="contact-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid" src="res/phone.png" alt="dsadas" />
+                        <p>016-8779639</p>
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid" src="res/whatapps.png" alt="dsadas" />
+                        <p>016-8779639</p>
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-fluid" src="res/email.png" alt="dsadas" />
+                        <p>amgworld9639@gmail.com</p>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="contactdivision"></div>
+
+        <div class="rightdivision">
+            <div class="row">
+                <div class="col-sm-9"></div>
+                <div class="col-sm-3">
+                    <p>© ALL RIGHTS RESERVED. COWAY (M) © 2018 </p>
+                </div>
+            </div>
+        </div>
 </body>
 
 <script>
