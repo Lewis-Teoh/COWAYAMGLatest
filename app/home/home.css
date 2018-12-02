@@ -3,11 +3,11 @@
     height: auto;
   }
 .watercontainer{
-  background-color: #71A6D3;
+  background-color: #034290;
   text-align-last: center;
 }
 .aircontainer{
-  background-color: #A2B487;
+  background-color: #034290;
   text-align-last: center;
 }
 .panel-heading{
@@ -75,13 +75,13 @@ img{max-width:50px;
     
   }
  .waterlist{
-  background-color: #71A6D3;
+  background-color: white;
 
 
  }
 
  .airlist{
-  background-color: #A2B487;
+  background-color: white;
  }
 
  h3 {
