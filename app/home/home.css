@@ -3,23 +3,33 @@
     height: auto;
   }
 .watercontainer{
-  background-color: #e6ffff;
+  background-color: #71A6D3;
   text-align-last: center;
 }
 .aircontainer{
-  background-color: #f2ffe6;
+  background-color: #A2B487;
   text-align-last: center;
 }
 .panel-heading{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 40px;
+    color: white;
 
 
 }
-  img{max-width:50px;
+img{max-width:50px;
   width: 100%;
   height: auto;}
   *{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
+
+.imglist{
+  max-width:120px;
+  width : 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .my-list {
   width: 100%;
   padding: 10px;
@@ -64,13 +74,13 @@
     
   }
  .waterlist{
-  background-color: #e6ffff;
+  background-color: #71A6D3;
 
 
  }
 
  .airlist{
-  background-color: #f2ffe6;
+  background-color: #A2B487;
  }
 
  h3 {
