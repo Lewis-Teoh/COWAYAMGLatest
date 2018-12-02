@@ -2,3 +2,9 @@
     .inceptionbackground{
         background-color: #F3F3F5;
     }
+    
+    .inceptionheader{
+        font-family: 'Rubik', sans-serif;
+        color:#8cb3d9;
+        font-size:65px;
+    }
