@@ -4,12 +4,14 @@
 angular.module('webApp', [
   'ngRoute',
   'webApp.home',
-  'webApp.product',
   'webApp.inception',
   'webApp.ferry',
   'webApp.harry',
   'webApp.villaem',
-  'webApp.petit'
+  'webApp.petit',
+  'webApp.neo',
+  'webApp.lucy',
+  'webApp.core'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
