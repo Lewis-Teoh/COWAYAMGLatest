@@ -11,7 +11,8 @@ angular.module('webApp', [
   'webApp.petit',
   'webApp.neo',
   'webApp.lucy',
-  'webApp.core'
+  'webApp.core',
+  'webApp.ombak'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
