@@ -1,6 +1,8 @@
 
 .white-fluid{
   background-color:#F7F7F7;
+  text-align: center;
+  padding:1%;
 }
 
 .whitedivision {
@@ -26,6 +28,7 @@
 }
 .contact-fluid{
   background-color :#8cb3d9;
+  
 }
 
 .rightdivision{
@@ -41,12 +44,6 @@
   height: auto;
 }
 
-.imagebackground{
-  width: 100%;
-  position: relative;
-  text-align: center;
-}
-
 .container-fluid{
   background-color: #ecf0f9;
 }
@@ -55,20 +52,38 @@
 h1{
   font-family: 'Rubik', sans-serif;
   color:#8cb3d9;
-
+  padding-left: 2%;
+  padding-right:2%;
+  font-size: 30px;
 }
 
 .h1design{
   font-family: 'Rubik', sans-serif;
   color:#8cb3d9;
   padding-top: 10%;
+  font-size: 30px;
+  padding-left: 2%;
+  padding-right:2%;
+  
+}
+
+.h1withoutpadding{
+  font-family: 'Rubik', sans-serif;
+  color:#8cb3d9;
+  padding-top: 10%;
+
 }
 h2{
   font-family: 'Rubik', sans-serif;
   color: white;
+
 }
 p{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  padding-left: 2%;
+  padding-right:2%;
+
+ 
 }
 
 .specandpriceheader1{
@@ -86,13 +101,16 @@ p{
 
 }
 header{
-  font-family: 'Rubik', sans-serif;
-  color:#8cb3d9;
-  font-size: 4vw;
+    font-family: 'Rubik', sans-serif;
+    color:#8cb3d9;
+    font-size:60px;
+    padding-top:10%;
+    padding-left: 2%;
 }
 
+
 img{max-width:50px;
-  width: 100%;
+  width: 80%;
   height: auto;}
   *{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
 .my-list {

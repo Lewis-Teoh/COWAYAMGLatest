@@ -12,8 +12,9 @@
 }
 .panel-heading{
     font-family: 'Rubik', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
+    padding-top: 1%;
 
 
 }
@@ -23,7 +24,7 @@ img{max-width:50px;
   *{transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease}
 
 .imglist{
-  max-width:120px;
+  max-width:150px;
   width : 100%;
   height: 100%;
   display: block;
