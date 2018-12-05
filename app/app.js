@@ -12,7 +12,10 @@ angular.module('webApp', [
   'webApp.neo',
   'webApp.lucy',
   'webApp.core',
-  'webApp.ombak'
+  'webApp.ombak',
+  'webApp.storm',
+  'webApp.lombok',
+  'webApp.tuba'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
