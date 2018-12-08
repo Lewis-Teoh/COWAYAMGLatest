@@ -1,31 +1,35 @@
-[debug] [2018-12-08T02:00:47.941Z] ----------------------------------------------------------------------
-[debug] [2018-12-08T02:00:47.948Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tan Chun Shui\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2018-12-08T02:00:47.948Z] CLI Version:   6.1.2
-[debug] [2018-12-08T02:00:47.949Z] Platform:      win32
-[debug] [2018-12-08T02:00:47.949Z] Node Version:  v11.2.0
-[debug] [2018-12-08T02:00:47.950Z] Time:          Sat Dec 08 2018 10:00:47 GMT+0800 (Malaysia Time)
-[debug] [2018-12-08T02:00:47.951Z] ----------------------------------------------------------------------
+[debug] [2018-12-08T10:56:19.015Z] ----------------------------------------------------------------------
+[debug] [2018-12-08T10:56:19.018Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tan Chun Shui\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-08T10:56:19.018Z] CLI Version:   6.1.2
+[debug] [2018-12-08T10:56:19.018Z] Platform:      win32
+[debug] [2018-12-08T10:56:19.018Z] Node Version:  v11.2.0
+[debug] [2018-12-08T10:56:19.019Z] Time:          Sat Dec 08 2018 18:56:19 GMT+0800 (Malaysia Time)
+[debug] [2018-12-08T10:56:19.019Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-12-08T02:00:48.000Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-12-08T02:00:48.001Z] > authorizing via signed-in user
-[debug] [2018-12-08T02:00:48.003Z] [iam] checking project coway-3e676 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2018-12-08T02:00:48.009Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-12-08T02:00:48.010Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-12-08T10:56:19.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-08T10:56:19.038Z] > authorizing via signed-in user
+[debug] [2018-12-08T10:56:19.038Z] [iam] checking project coway-3e676 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-08T10:56:19.040Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-08T10:56:19.040Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2018-12-08T02:00:48.203Z] <<< HTTP RESPONSE 200
-[debug] [2018-12-08T02:00:48.210Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/coway-3e676:testIamPermissions  
+[debug] [2018-12-08T10:56:19.180Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T10:56:19.186Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/coway-3e676:testIamPermissions  
 
-[debug] [2018-12-08T02:00:49.444Z] <<< HTTP RESPONSE 200
-[debug] [2018-12-08T02:00:49.447Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coway-3e676  
+[debug] [2018-12-08T10:56:20.375Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T10:56:20.377Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coway-3e676  
  
-[debug] [2018-12-08T02:00:49.794Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T10:56:20.715Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'coway-3e676'...
 [info] 
 [info] i  deploying hosting
-[debug] [2018-12-08T02:00:49.809Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions  
+[debug] [2018-12-08T10:56:20.722Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions  
 
-[debug] [2018-12-08T02:00:52.312Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T10:56:22.831Z] <<< HTTP RESPONSE 200
 [info] i  hosting[coway-3e676]: beginning deploy...
-[info] i  hosting[coway-3e676]: found 839 files in app
-[debug] [2018-12-08T02:00:52.676Z] [hosting] hash cache [YXBw] load error: lines is not defined
+[info] i  hosting[coway-3e676]: found 843 files in app
+[debug] [2018-12-08T10:56:23.027Z] [hosting] hash cache [YXBw] load error: lines is not defined
+[debug] [2018-12-08T10:56:26.171Z] [hosting] hash cache [YXBw] stored for 843 files
+[debug] [2018-12-08T10:56:26.172Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-08T10:56:26.172Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions/d89ee3976f6b8682:populateFiles  
+ <request body omitted>
