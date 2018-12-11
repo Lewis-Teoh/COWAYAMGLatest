@@ -16,7 +16,8 @@ angular.module('webApp', [
   'webApp.storm',
   'webApp.lombok',
   'webApp.tuba',
-  'webApp.contact'
+  'webApp.contact',
+  'webApp.promo'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
