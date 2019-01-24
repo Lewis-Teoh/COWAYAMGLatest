@@ -3,74 +3,13 @@
 
 <head>
 
-	<script>
-		$(document).ready(function () {
-			$('.dropdown-toggle').dropdown()
-		});
-	</script>
-
-	<title>Add Post Page</title>
+	
+	<title>Home</title>
 
 </head>
 
 <body ng-controller="HomeCtrl">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-		<a class="navbar-brand" href="#">
-			<img src="res/logo.png" width="500" ; height="300" ; alt="">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-		 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#/home">Home<span class="sr-only">(current)</span></a>
-				</li>
-			
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-					 aria-haspopup="true" aria-expanded="false">
-						Water Purifier
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#/ombak">OMBAK</a>
-						<a class="dropdown-item" href="#/lucy">Lucy CHPI-620L</a>
-						<a class="dropdown-item" href="#/core">Core CHP-671L</a>
-						<a class="dropdown-item" href="#/ferry">Ferry P-08L</a>
-						<a class="dropdown-item" href="#/inception">Inception</a>
-						<a class="dropdown-item" href="#/harry">Harry CHP-590N</a>
-						<a class="dropdown-item" href="#/villaem">Villaem CHP-08AR</a>
-						<a class="dropdown-item" href="#/petit">Petit CHP-06DL</a>
-
-						<a class="dropdown-item" href="#/neo">Neo CHP-260N</a>
-
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-					 aria-haspopup="true" aria-expanded="false">
-						Air Purifier
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#/storm">Storm AP-1516D</a>
-						<a class="dropdown-item" href="#/lombok">Lombok ll</a>
-						<a class="dropdown-item" href="#/tuba">Tuba</a>
-
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/contact">Contact us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/promo">Promotion</a>
-				</li>
-			</ul>
-		</div>
-
-	</nav>
-
+	
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<!-- <ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -98,13 +37,13 @@
 		<!-- </a> -->
 	</div>
 
-	<div class="watercontainer">
+	<div class="panelcontainer">
 		<div class="panel panel-default">
 			<div class="panel-heading">Water Purifier</div>
 
 		</div>
 	</div>
-	<div class="waterlist">
+	<div class="productlist">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -198,13 +137,13 @@
 		</div>
 	</div>
 
-	<div class="aircontainer">
+	<div class="panelcontainer">
 		<div class="panel panel-default">
 			<div class="panel-heading">Air Purifier</div>
 
 		</div>
 	</div>
-	<div class="airlist">
+	<div class="productlist">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -239,6 +178,48 @@
 			</div>
 		</div>
 	</div>
+	<div class="panelcontainer">
+		<div class="panel panel-default">
+			<div class="panel-heading">Bathroom</div>
+
+		</div>
+	</div>
+	<div class="productlist">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="my-list">
+						<a href="#/lily#top">
+							<img class="imglist" src="res/lily1.png" alt="dsadas" />
+							<span>Lily</span>
+							<div class="offer">BB14-AMY</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="my-list">
+						<a href="#/fontana#top">
+							<img class="imglist" src="res/fontana.png" alt="dsadas" />
+							<span>Fontana</span>
+							<div class="offer">BAS25-AMY</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="my-list">
+						<a href="#/manualbidet#top">
+							<img class="imglist" src="res/bidet.png" alt="dsadas" />
+							<span>Fontana</span>
+							<div class="offer">BA12-A</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 	<div class="white-fluid">
 		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGAjIpbWIPHIjI5XBqgGmRKrViBw36sG-eFUn31IOtp0-FpA/viewform?embedded=true"
 		 width="100%" height="1050px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

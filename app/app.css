@@ -41,7 +41,12 @@
 
 .container-fluid{
   background-color: #ecf0f9;
+
 }
+
+.noPadding {
+  padding: 0 !important;
+  }
 
 
 h1{

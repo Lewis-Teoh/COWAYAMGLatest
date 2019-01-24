@@ -17,7 +17,8 @@ angular.module('webApp', [
   'webApp.lombok',
   'webApp.tuba',
   'webApp.contact',
-  'webApp.promo'
+  'webApp.promo',
+  'webApp.lily'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

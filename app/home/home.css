@@ -2,14 +2,11 @@
     width: 100%;
     height: auto;
   }
-.watercontainer{
+.panelcontainer{
   background-color: #034290;
   text-align-last: center;
 }
-.aircontainer{
-  background-color: #034290;
-  text-align-last: center;
-}
+
 .panel-heading{
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
@@ -74,13 +71,7 @@ img{max-width:50px;
 
     
   }
- .waterlist{
-  background-color: white;
-
-
- }
-
- .airlist{
+ .productlist{
   background-color: white;
  }
 
