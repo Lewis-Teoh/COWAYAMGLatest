@@ -18,7 +18,9 @@ angular.module('webApp', [
   'webApp.tuba',
   'webApp.contact',
   'webApp.promo',
-  'webApp.lily'
+  'webApp.lily',
+  'webApp.fontana',
+  'webApp.bidet'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

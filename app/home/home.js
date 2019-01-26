@@ -9,6 +9,8 @@ angular.module('webApp.home', ['ngRoute', 'firebase'])
 		});
 	}])
 
+
+
 	.controller('HomeCtrl', ['$scope', '$firebaseArray', function ($scope, $firebaseArray) {
 
 
