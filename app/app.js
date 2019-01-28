@@ -20,7 +20,7 @@ angular.module('webApp', [
   'webApp.promo',
   'webApp.lily',
   'webApp.fontana',
-  'webApp.bidet'
+
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

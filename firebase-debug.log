@@ -1,0 +1,31 @@
+[debug] [2019-01-28T05:12:43.818Z] ----------------------------------------------------------------------
+[debug] [2019-01-28T05:12:43.821Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tan Chun Shui\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-01-28T05:12:43.821Z] CLI Version:   6.1.2
+[debug] [2019-01-28T05:12:43.822Z] Platform:      win32
+[debug] [2019-01-28T05:12:43.822Z] Node Version:  v11.2.0
+[debug] [2019-01-28T05:12:43.823Z] Time:          Mon Jan 28 2019 13:12:43 GMT+0800 (Malaysia Time)
+[debug] [2019-01-28T05:12:43.823Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-28T05:12:43.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-28T05:12:43.836Z] > authorizing via signed-in user
+[debug] [2019-01-28T05:12:43.837Z] [iam] checking project coway-3e676 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-01-28T05:12:43.842Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/coway-3e676:testIamPermissions  
+
+[debug] [2019-01-28T05:12:45.284Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-28T05:12:45.286Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coway-3e676  
+ 
+[debug] [2019-01-28T05:12:45.813Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'coway-3e676'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-01-28T05:12:45.817Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions  
+
+[debug] [2019-01-28T05:12:47.836Z] <<< HTTP RESPONSE 200
+[info] i  hosting[coway-3e676]: beginning deploy...
+[info] i  hosting[coway-3e676]: found 900 files in app
+[debug] [2019-01-28T05:12:48.041Z] [hosting] hash cache [YXBw] load error: lines is not defined
+[debug] [2019-01-28T05:12:48.959Z] [hosting] hash cache [YXBw] stored for 900 files
+[debug] [2019-01-28T05:12:48.959Z] [hosting][hash queue][FINAL]
+[debug] [2019-01-28T05:12:48.959Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions/b8ca44ca9b05e1a9:populateFiles  
+ <request body omitted>
