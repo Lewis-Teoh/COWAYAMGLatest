@@ -8,11 +8,11 @@
 
 <body ng-controller="LucyCtrl">
     <a href="#top"></a>
-    <div class="container-fluid" >
-        <div class="row" >
+    <div class="container-fluid noPadding" id="lucy">
+        <div class="row no-gutters">
             <div class="col-sm-2"></div>
             <div class="col-sm-6">
-                
+
                 <header>LUCY</header>
                 <h1>CHPI-620L</h1><br>
                 <p>HIGH TECH VERSATILITY
@@ -27,8 +27,8 @@
     </div>
 
 
-    <div class="white-fluid">
-        <div class="row">
+    <div class="container-fluid noPadding" style="background-color:#F7F7F7">
+        <div class="row no-gutters">
             <div class="col-sm-6">
                 <img class="img-fluid" src="res/product/lucy-convenience-bg-2-xs.jpg" height="70%">
             </div>
@@ -41,8 +41,8 @@
 
         </div>
     </div>
-    <div class="">
-        <div class="row" text-align="center">
+    <div class="container-fluid noPadding">
+        <div class="row no-gutters" text-align="center">
             <div class="col-sm-2"></div>
             <div class="col-sm-6">
                 <h1 class="h1design">CLEAN ICE WHENEVER
@@ -119,256 +119,202 @@
     </div>
 
     <div class="division"></div>
-    <div class="spec">
+    <div class="container-fluid noPadding">
+        <div class="spec">
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-2"></div>
-            <div class="col-xs-12 col-sm-3">
-                <img class="img-fluid" src="res/product/no3.webp" width="100%">
-            </div>
-            <div class="col-xs-12 col-sm-7">
+            <div class="row no-gutters">
+                <div class="col-xs-12 col-sm-2"></div>
+                <div class="col-xs-12 col-sm-3">
+                    <img class="img-fluid" src="res/product/no3.webp" width="100%">
+                </div>
+                <div class="col-xs-12 col-sm-7">
 
-                <div class="col-sm-12">
-                    <h1 class="specandpriceheader1"><b>Spec and Price</b></h1>
-                    <br />
-                    <div class="specandprice">
-                        <div class="col-sm-10">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">RETAIL PRICE</th>
-                                        <th scope="col">MONTHLY RENTAL</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-
-                                        <td>RM 7400</td>
-                                        <td>RM 190</td>
-
-                                    </tr>
-                                    <tr>
-
-                                        <td>FREE 1-YEAR SERVICE & PRODUCT WARRANTY</td>
-                                        <td>FREE 5-YEAR SERVICE & PRODUCT WARRANTY</td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                     <div class="col-sm-12">
-                        <p class="specandprice">
-                            Tank Capacity :
-                            <br>
-                            3.5 Litres Ambient Water
-                            <br />
-                            2.5 Litres Cold Water
-                            <br />
-                            1.5 Litres Hot Water
-                            <br />
-                            ​<br />
-                            Ice Tank Capacity : 1.0 kg
-                            <br />
-                            Filtration Capacity : 7.9 Litre / Hour
-                            <br />
-                            <br />
-                            Power Consumption : Cooler : 1.1 A Heater : 260 ~ 300w
-                            <br />
-                            Dimension : 300 mm (W), 500 mm (D), 1291 mm (H)</p>
+                        <h1 class="specandpriceheader1"><b>Spec and Price</b></h1>
+                        <br />
+                        <div class="specandprice">
+                            <div class="col-sm-10">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">RETAIL PRICE</th>
+                                            <th scope="col">MONTHLY RENTAL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+
+                                            <td>RM 7400</td>
+                                            <td>RM 190</td>
+
+                                        </tr>
+                                        <tr>
+
+                                            <td>FREE 1-YEAR SERVICE & PRODUCT WARRANTY</td>
+                                            <td>FREE 5-YEAR SERVICE & PRODUCT WARRANTY</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <p class="specandprice">
+                                Tank Capacity :
+                                <br>
+                                3.5 Litres Ambient Water
+                                <br />
+                                2.5 Litres Cold Water
+                                <br />
+                                1.5 Litres Hot Water
+                                <br />
+                                ​<br />
+                                Ice Tank Capacity : 1.0 kg
+                                <br />
+                                Filtration Capacity : 7.9 Litre / Hour
+                                <br />
+                                <br />
+                                Power Consumption : Cooler : 1.1 A Heater : 260 ~ 300w
+                                <br />
+                                Dimension : 300 mm (W), 500 mm (D), 1291 mm (H)</p>
+                        </div>
+
                     </div>
+
 
                 </div>
-
-
             </div>
         </div>
     </div>
-        <div class="division"></div>
-        <!-- <div class="contact-form">
-
-            <form role="form" name="orderForm" ng-submit="createOrder()" novalidate="">
-                <h3>Order Form</h3>
-                <div class="row">
-                    <div class="col-sm-2">
-
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-group" ng-class="{'has-error' : orderForm.nameTxt.$invalid && !orderForm.nameTxt.$touched}">
-                            <input type="text" name="nameTxt" ng-model="orders.nameTxt" class="form-control"
-                                placeholder="Your Name *" ng-minlength="5" value="" />
-                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.titleTxt.$touched">Please
-                                enter a valid name.</small>
+    <div class="division"></div>
+   
+    <div class="contactwhite"></div>
+    <section id="contact">
+        <div class="container">
+            <h3 class="text-center text-uppercase">Contact Us</h3>
+            <!-- <p class="text-center w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum
+                    purus at sem ornare sodales. Morbi leo nulla, pharetra vel felis nec, ullamcorper condimentum quam.</p> -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                            <h4 class="text-uppercase mb-5">Office Location</h4>
+                            <address>NO.11 LORONG TIARA 1A, BANDAR BARU KLANG,41150 KLANG, SELANGOR</address>
                         </div>
-                        <div class="form-group" ng-class="{'has-error' : orderForm.emailTxt.$invalid && !orderForm.emailTxt.$touched}">
-                            <input type="email" name="emailTxt" ng-model="orders.emailTxt" class="form-control"
-                                placeholder="Your Email *" ng-minlenth="8" value="" />
-                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.titleTxt.$touched">Please
-                                enter a valid email.</small>
-                        </div>
-                        <div class="form-group" ng-class="{'has-error' : orderForm.phoneNoTxt.$invalid && !orderForm.phoneNoTxt.$touched}">
-                            <input type="number" name="phoneNoTxt" ng-model="orders.phoneNoTxt" class="form-control"
-                                placeholder="Your Phone Number *" ng-minlength="10" value="" />
-                            <small class="help-block" ng-show="orderForm.titleTxt.$error.minlength && orderForm.phoneNoTxt.$touched">Please
-                                enter a valid phone number.</small>
-                        </div>
-                        <div class="form-group" ng-class="{'has-error' : orderForm.productCodeTxt.$invalid && !orderForm.productCodeTxt.$touched}">
-                            <input type="text" name="productCodeTxt" ng-model="orders.productCodeTxt" class="form-control"
-                                placeholder="I'm Interested in Coway (Product number) *" value="" />
-                        </div>
-                        <div class="form-group" ng-class="{'has-error' : orderForm.addressTxt.$invalid && !orderForm.addressTxt.$touched}">
-                            <input type="text" name="addressTxt" ng-model="orders.addressTxt" class="form-control"
-                                placeholder="Your Address *" ng-minlength="10" value="" />
-                            <small class="help-block" ng-show="orderForm.addressTxt.$error.minlength && orderForm.addressTxt.$touched">Please
-                                enter a valid address.</small>
-                        </div>
-                        <div class="form-group" ng-class="{'has-error' : orderForm.messageTxt.$invalid && !orderForm.messageTxt.$touched}">
-                            <input type="text" name="messageTxt" ng-model="orders.messageTxt" class="form-control"
-                                value="Your Message" placeholder="Your Message *" ng-minlength="5" />
-                        </div>
-                        <small class="help-block" ng-show="orderForm.messageTxt.$error.minlength && orderForm.messageTxt.$touched">Please
-                            enter a valid message.</small>
-                        <div class="form-group">
-                            <button type="submit" ng-click="reset()" class="btn btn-primary" ng-disabled="orderForm.$invalid">Submit</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-
                     </div>
                 </div>
-            </form>
-        </div> -->
-        <div class="contactwhite"></div>
-        <section id="contact">
-            <div class="container">
-                <h3 class="text-center text-uppercase">Contact Us</h3>
-                <!-- <p class="text-center w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum
-                    purus at sem ornare sodales. Morbi leo nulla, pharetra vel felis nec, ullamcorper condimentum quam.</p> -->
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">Office Location</h4>
-                                <address>NO.11 LORONG TIARA 1A, BANDAR BARU KLANG,41150 KLANG, SELANGOR</address>
-                            </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                            <h4 class="text-uppercase mb-5">Call Us</h4>
+                            <p>018-2264088</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">Call Us</h4>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <a class="blackhyper" href="https://wa.me/60182264088">
+                                <i class="fa fa-whatsapp fa-5x mb-3" aria-hidden="true"></i>
+                                <h4 class="text-uppercase mb-5">Whatapps</h4>
                                 <p>018-2264088</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
-    
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                    <a class="blackhyper" href="https://wa.me/60182264088">
-                                        <i class="fa fa-whatsapp fa-5x mb-3" aria-hidden="true"></i>
-                                        <h4 class="text-uppercase mb-5">Whatapps</h4>
-                                        <p>018-2264088</p>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">email</h4>
-                                <p>ckeyteh.coway@gmail.com</p>
-                            </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                            <h4 class="text-uppercase mb-5">email</h4>
+                            <p>ckeyteh.coway@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-    
-        <div class="white-fluid">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGAjIpbWIPHIjI5XBqgGmRKrViBw36sG-eFUn31IOtp0-FpA/viewform?embedded=true"
-                width="100%" height="1050px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
-        <div class="rightdivision">
-            <footer class="page-footer font-small unique-color-dark">
-    
-                <div class="bluedivision"></div>
-    
-    
-                <div class="container text-center text-md-left mt-5">
-    
-    
-                    <div class="row mt-3">
-    
-    
-                        <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
-    
-    
-                            <h6 class="text-uppercase font-weight-bold">WE VENTURES COWAY</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>NO.11 LORONG TIARA 1A, BANDAR BARU KLANG,41150 KLANG, SELANGOR</p>
-    
-                        </div>
-    
-                        <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
-    
-    
-                            <h6 class="text-uppercase font-weight-bold">Promotion</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>
-                                <a href="#!">MDBootstrap</a>
-                            </p>
-                            <p>
-                                <a href="#!">MDWordPress</a>
-                            </p>
-                            <p>
-                                <a href="#!">BrandFlow</a>
-                            </p>
-                            <p>
-                                <a href="#!">Bootstrap Angular</a>
-                            </p>
-    
-                        </div>
-    
-    
-                        <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
-    
-                            <!-- Links -->
-                            <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-    
-                            <p>
-                                <i class="fa fa-globe mr-3"></i> ckeyteh.coway@gmail.com</p>
-                            <p><a class="hyperlink" href="https://wa.me/60182264088">
-                                    <i class="fa fa-whatsapp mr-3"></i> 018-2264088</p>
-                            </a>
-                            <p>
-                                <i class="fa fa-phone mr-3"></i> 018-2264088</p>
-    
-                        </div>
-                        <!-- Grid column -->
-    
-                    </div>
-                    <!-- Grid row -->
-    
-                </div>
-                <!-- Footer Links -->
-    
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">©© ALL RIGHTS RESERVED. COWAY (M) © 2018
-                    <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
-                </div>
-                <!-- Copyright -->
-    
-            </footer>
-            <!-- Footer -->
-        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <div class="white-fluid">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGAjIpbWIPHIjI5XBqgGmRKrViBw36sG-eFUn31IOtp0-FpA/viewform?embedded=true"
+            width="100%" height="1050px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+    <div class="rightdivision">
+        <footer class="page-footer font-small unique-color-dark">
+
+			<div class="bluedivision"></div>
+
+
+			<div class="container text-center text-md-left mt-5">
+
+
+				<div class="row mt-3">
+
+
+					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
+
+
+						<h6 class="text-uppercase font-weight-bold">WE VENTURES COWAY</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+						<p>NO.11 LORONG TIARA 1A, BANDAR BARU KLANG,41150 KLANG, SELANGOR</p>
+
+					</div>
+
+					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
+
+
+						<h6 class="text-uppercase font-weight-bold">Product</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+						<p>
+							<a class="hyperlink" href="#/home#water">Water Purifier</a>
+						</p>
+						<p>
+							<a class="hyperlink" href="#/home#air">Air Purifier</a>
+						</p>
+						<p>
+							<a class="hyperlink" href="#/home#bathroom">Bathroom</a>
+						</p>
+
+					</div>
+
+
+					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold">Contact</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+						<p>
+							<i class="fa fa-globe mr-3"></i> ckeyteh.coway@gmail.com</p>
+						<p><a class="hyperlink" href="https://wa.me/60182264088">
+								<i class="fa fa-whatsapp mr-3"></i> 018-2264088</p>
+						</a>
+						<p>
+							<i class="fa fa-phone mr-3"></i> 018-2264088</p>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">©© ALL RIGHTS RESERVED. COWAY (M) © 2018
+				<!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+    </div>
 </body>
 
 <script>
