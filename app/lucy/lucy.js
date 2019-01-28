@@ -4,7 +4,7 @@ angular.module('webApp.lucy', ['ngRoute'])
 
 	.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider.when('/lucy', {
-			templateUrl: 'lucy/lucy.html#top',
+			templateUrl: 'lucy/lucy.html',
 			controller: 'LucyCtrl'
 		});
 	}])
