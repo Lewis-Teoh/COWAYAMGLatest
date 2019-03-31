@@ -43,5 +43,7 @@ angular.module('webApp.lucy', ['ngRoute'])
 			
 		};
 
-    }]);
+	}]);
+	
+	
 

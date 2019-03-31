@@ -16,12 +16,16 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+    crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mukta|Oswald" rel="stylesheet"> 
-
+  <link href="https://fonts.googleapis.com/css?family=Mukta|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="home/home.css">
   <link rel="stylesheet" href="core/core.css">
@@ -39,12 +43,9 @@
   <link rel="stylesheet" href="contact/contact.css">
   <link rel="stylesheet" href="promo/promo.css">
 
- 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-    crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
-    crossorigin="anonymous">
+
+  
 
 
 
@@ -76,8 +77,8 @@
     });
   </script>
 
-  <div id="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div id="navigation dropdown-menu" class="bodynav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navMenu">
 
       <a class="navbar-brand" href="#">
         <img src="res/logo.png" width="500" ; height="300" ; alt="">
@@ -89,9 +90,13 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
           <li class="nav-item active">
-            <a class="nav-link" href="#/home">Home<span class="sr-only">(current)</span></a>
+            <div>
+              <a class="nav-link" href="#/home">Home<span class="sr-only">(current)</span></a>
+            </div>
           </li>
+
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -105,9 +110,8 @@
               <a class="dropdown-item" href="#/ferry">Ferry</a>
               <a class="dropdown-item" href="#/inception">Inception</a>
               <a class="dropdown-item" href="#/harry">Harry</a>
-              <a class="dropdown-item" href="#/villaem">Villaem</a>
+              <a class="dropdown-item" href="#/villaem2">Villaem</a>
               <a class="dropdown-item" href="#/petit">Petit</a>
-
               <a class="dropdown-item" href="#/neo">Neo</a>
 
             </div>
@@ -121,7 +125,7 @@
               <a class="dropdown-item" href="#/storm">Storm</a>
               <a class="dropdown-item" href="#/lombok">Lombok ll</a>
               <a class="dropdown-item" href="#/tuba">Tuba</a>
-
+            </div>
           </li>
 
           <li class="nav-item dropdown">
@@ -133,20 +137,46 @@
               <a class="dropdown-item" href="#/lily">Lily</a>
               <a class="dropdown-item" href="#/fontana">Fontana</a>
               <!-- <a class="dropdown-item" href="#/bidet">Manual Bidet</a> -->
-
+            </div>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#/promo">Promotion</a>
           </li> -->
+
           <li class="nav-item">
-            <a class="nav-link" href="#/contact">Contact us</a>
+            <div>
+              <a class="nav-link" href="#/contact">Contact us</a>
+            </div>
           </li>
+
 
         </ul>
       </div>
+    </nav>
+    <div class="godown-60" id="godown"></div>
   </div>
-  </nav>
-  </div>
+
+  <script>
+    //insert this in your jquery
+    //control the resizing of menu and go down the content in the correct position
+
+    $("#navMenu").resize(function () {
+      $('#godown').height($("#navMenu").height() + 10);
+    });
+
+    if ($("#navMenu").height() > $('#godown').height()) $('#godown').height($("#navMenu").height() + 10);
+
+    $(document).ready(function () {
+      $(".navbar-nav li div a").click(function (event) {
+        $(".navbar-collapse").collapse('hide');
+        $(window).scrollTop(0);
+      });
+    });
+
+   
+
+  </script>
+
   <div ng-view></div>
 
   <script src="bower_components/angular/angular.js"></script>
@@ -171,6 +201,8 @@
   <script type="text/javascript" src="lily/lily.js"></script>
   <script type="text/javascript" src="fontana/fontana.js"></script>
   <script type="text/javascript" src="bidet/bidet.js"></script>
+  <script type="text/javascript" src="villaem2/villaem2.js"></script>
+
 
 
 
@@ -187,6 +219,8 @@
     $(function () {
       $("#nav-placeholder").load("index.html");
     });
+
+
   </script>
 </body>
 

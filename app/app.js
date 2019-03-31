@@ -20,6 +20,7 @@ angular.module('webApp', [
   'webApp.promo',
   'webApp.lily',
   'webApp.fontana',
+  'webApp.villaem2',
 
   
 ]).

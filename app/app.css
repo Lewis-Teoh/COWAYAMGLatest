@@ -1,4 +1,10 @@
+#godown{
+  height: 57px;
+}
 
+.bodynav{
+  width: 100%;
+}
 .white-fluid{
   background-color:#F7F7F7;
   text-align: center;
@@ -31,8 +37,6 @@
   
 }
 
-
-
 .responsive {
   width: 100%;
   max-width:300px;
@@ -48,44 +52,40 @@
   padding: 0 !important;
   }
 
-
-h1{
-  font-family: 'Rubik', sans-serif;
-  color:#8cb3d9;
+@media (min-width:768px){
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#696969;
   padding-left: 2%;
   padding-right:2%;
-  font-size: 30px;
+  font-size: 20px;
 }
+header{
+  font-family: 'Rubik', sans-serif;
+  color:#8cb3d9;
+  font-size:60px;
+  padding-top:10%;
+  padding-left: 2%;
+  font-weight: 500;
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+ 
+  padding-left: 2%;
+  padding-right:2%;
+  font-size:20px;
 
+ 
+}
 .h1design{
   font-family: 'Rubik', sans-serif;
   color:#8cb3d9;
-  padding-top: 10%;
+  padding-top: 20%;
   font-size: 30px;
   padding-left: 2%;
   padding-right:2%;
   
 }
-
-.h1withoutpadding{
-  font-family: 'Rubik', sans-serif;
-  color:#8cb3d9;
-  padding-top: 10%;
-
-}
-h2{
-  font-family: 'Rubik', sans-serif;
-  color: white;
-
-}
-p{
-  font-family: 'Mukta', sans-serif;
-  padding-left: 2%;
-  padding-right:2%;
-
- 
-}
-
 .specandpriceheader1{
   padding-left: 10%;
   font-family: 'Rubik', sans-serif;
@@ -97,16 +97,72 @@ p{
   font-family: 'Rubik', sans-serif;
   color:white;
   padding-inline-start: 10%;
-  font-size: 20px;
+  font-size: 18px;
 
 }
-header{
+
+
+}
+
+@media (max-width:767px){
+  h2{
+    font-family: 'Rubik', sans-serif;
+    color: #696969;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size: 20px;
+  }
+  header{
     font-family: 'Rubik', sans-serif;
     color:#8cb3d9;
-    font-size:60px;
+    font-size:50px;
     padding-top:10%;
     padding-left: 2%;
+  }
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size:20px;
+   
+  }
+  .h1design{
+    font-family: 'Rubik', sans-serif;
+    color:#8cb3d9;
+    padding-top: 10%;
+    font-size: 30px;
+    padding-left: 2%;
+    padding-right:2%;
+    
+  }
+  .specandpriceheader1{
+    padding:5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color:white;
+  
+  }
+  
+  .specandprice{
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-size: 15px;
+  
+  }
+  
+  }
+
+
+
+.h1withoutpadding{
+  font-family: 'Rubik', sans-serif;
+  color:#8cb3d9;
+  padding-top: 10%;
+
 }
+
+
+
 
 
 img{max-width:50px;
@@ -150,3 +206,4 @@ img{max-width:50px;
   .blackhyper{
     color:black;
   }
+

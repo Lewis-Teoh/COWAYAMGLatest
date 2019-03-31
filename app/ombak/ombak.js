@@ -4,7 +4,7 @@ angular.module('webApp.ombak', ['ngRoute'])
 
 	.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider.when('/ombak', {
-			templateUrl: 'ombak/ombak.html#top',
+			templateUrl: 'ombak/ombak.html',
 			controller: 'OmbakCtrl'
 		});
 	}])

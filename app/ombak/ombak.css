@@ -1,5 +1,17 @@
+@media (max-width:767px){
 .ombakh1{
     font-family: 'Rubik', sans-serif;
     color:#8cb3d9;
-    padding-top: 50%;
+    padding-top: 5%;
+    
+}
+}
+
+@media (min-width:768px){
+    .ombakh1{
+        font-family: 'Rubik', sans-serif;
+        color:#8cb3d9;
+        padding-top: 50%;
+        padding-left:10%
+    }
 }

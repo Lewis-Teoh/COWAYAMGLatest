@@ -10,5 +10,5 @@ angular.module('webApp.neo', ['ngRoute'])
 	}])
 
 	.controller('NeoCtrl', ['$scope', , function ($scope) {
-
+	
     }]);
