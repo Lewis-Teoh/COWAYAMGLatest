@@ -3,7 +3,8 @@
 
 <head>
     <title>Villaem</title>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -180,89 +181,25 @@
             </div>
         </div>
     </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
 
 
     <div class="white-fluid">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGAjIpbWIPHIjI5XBqgGmRKrViBw36sG-eFUn31IOtp0-FpA/viewform?embedded=true"
             width="100%" height="1050px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
-    <div class="rightdivision">
-        <footer class="page-footer font-small unique-color-dark">
 
-			<div class="bluedivision"></div>
-
-
-			<div class="container text-center text-md-left mt-5">
-
-
-				<div class="row mt-3">
-
-
-					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
-
-
-						<h6 class="text-uppercase font-weight-bold">WE VENTURES COWAY</h6>
-						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-						<p>NO.11 LORONG TIARA 1A, BANDAR BARU KLANG,41150 KLANG, SELANGOR</p>
-
-					</div>
-
-					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-4">
-
-
-						<h6 class="text-uppercase font-weight-bold">Product</h6>
-						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-						<p>
-							<a class="hyperlink" href="#/home#water">Water Purifier</a>
-						</p>
-						<p>
-							<a class="hyperlink" href="#/home#air">Air Purifier</a>
-						</p>
-						<p>
-							<a class="hyperlink" href="#/home#bathroom">Bathroom</a>
-						</p>
-
-					</div>
-
-
-					<div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
-
-						<!-- Links -->
-						<h6 class="text-uppercase font-weight-bold">Contact</h6>
-						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
-						<p>
-							<i class="fa fa-globe mr-3"></i> ckeyteh.coway@gmail.com</p>
-						<p><a class="hyperlink" href="https://wa.me/60182264088">
-								<i class="fa fa-whatsapp mr-3"></i> 018-2264088</p>
-						</a>
-						<p>
-							<i class="fa fa-phone mr-3"></i> 018-2264088</p>
-
-					</div>
-					<!-- Grid column -->
-
-				</div>
-				<!-- Grid row -->
-
-			</div>
-			<!-- Footer Links -->
-
-			<!-- Copyright -->
-			<div class="footer-copyright text-center py-3">©© ALL RIGHTS RESERVED. COWAY (M) © 2018
-				<!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
-			</div>
-			<!-- Copyright -->
-
-		</footer>
-    </div>
+    <div id="footer"></div>
 </body>
 
 <script>
     $(document).ready(function () {
         $('.dropdown-toggle').dropdown()
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#footer').load("footer.html");
     });
 </script>
 

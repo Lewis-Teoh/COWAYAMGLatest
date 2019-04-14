@@ -1,0 +1,38 @@
+[debug] [2019-04-14T13:31:13.009Z] ----------------------------------------------------------------------
+[debug] [2019-04-14T13:31:13.013Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tan Chun Shui\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-04-14T13:31:13.013Z] CLI Version:   6.6.0
+[debug] [2019-04-14T13:31:13.013Z] Platform:      win32
+[debug] [2019-04-14T13:31:13.013Z] Node Version:  v11.2.0
+[debug] [2019-04-14T13:31:13.014Z] Time:          Sun Apr 14 2019 21:31:13 GMT+0800 (Malaysia Time)
+[debug] [2019-04-14T13:31:13.014Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-14T13:31:13.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-14T13:31:13.030Z] > authorizing via signed-in user
+[debug] [2019-04-14T13:31:13.030Z] [iam] checking project coway-3e676 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-04-14T13:31:13.034Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-14T13:31:13.034Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-14T13:31:13.351Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-14T13:31:13.372Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/coway-3e676:testIamPermissions  
+
+[debug] [2019-04-14T13:31:14.773Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-14T13:31:14.774Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coway-3e676  
+ 
+[debug] [2019-04-14T13:31:15.378Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'coway-3e676'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-04-14T13:31:15.383Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions  
+
+[debug] [2019-04-14T13:31:17.423Z] <<< HTTP RESPONSE 200
+[info] i  hosting[coway-3e676]: beginning deploy...
+[info] i  hosting[coway-3e676]: found 929 files in app
+[debug] [2019-04-14T13:31:17.888Z] [hosting] hash cache [YXBw] load error: lines is not defined
+[debug] [2019-04-14T13:31:21.181Z] [hosting] hash cache [YXBw] stored for 929 files
+[debug] [2019-04-14T13:31:21.181Z] [hosting][hash queue][FINAL]
+[debug] [2019-04-14T13:31:21.181Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/coway-3e676/versions/1236bc584c7a0cac:populateFiles  
+ <request body omitted>
+[debug] [2019-04-14T13:31:37.891Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-14T13:31:37.910Z] [hosting][populate queue][FINAL]
+[debug] [2019-04-14T13:31:37.911Z] [hosting] uploads queued: 23

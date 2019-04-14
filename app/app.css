@@ -99,8 +99,15 @@ p{
   color:white;
   padding-inline-start: 10%;
   font-size: 18px;
-
 }
+.h1withoutpadding{
+    font-family: 'Rubik', sans-serif;
+    color:#8cb3d9;
+    padding-top: 10%;
+    font-size:35px;
+  
+}
+
 
 
 }
@@ -150,17 +157,20 @@ p{
     font-size: 15px;
   
   }
+
+  .h1withoutpadding{
+    font-family: 'Rubik', sans-serif;
+    color:#8cb3d9;
+    padding-top: 10%;
+    font-size:25px;
+  
+  }
   
   }
 
 
 
-.h1withoutpadding{
-  font-family: 'Rubik', sans-serif;
-  color:#8cb3d9;
-  padding-top: 10%;
 
-}
 
 
 

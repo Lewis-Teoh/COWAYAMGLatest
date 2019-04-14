@@ -45,14 +45,6 @@
 
 
 
-  
-
-
-
-
-
-
-
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
@@ -76,89 +68,88 @@
       $('.dropdown-toggle').dropdown()
     });
   </script>
+  <div id="nav-placeholder">
+    <div id="navigation dropdown-menu" class="bodynav">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navMenu">
 
-  <div id="navigation dropdown-menu" class="bodynav">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navMenu">
+        <a class="navbar-brand" href="#">
+          <img src="res/logo.png" width="500" ; height="300" ; alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <a class="navbar-brand" href="#">
-        <img src="res/logo.png" width="500" ; height="300" ; alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-item active">
-            <div>
-              <a class="nav-link" href="#/home">Home<span class="sr-only">(current)</span></a>
-            </div>
-          </li>
+            <li class="nav-item active">
+              <div>
+                <a class="nav-link" href="#/home">Home<span class="sr-only">(current)</span></a>
+              </div>
+            </li>
 
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Water Purifier
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#/villaem2">Villaem</a>
-              <a class="dropdown-item" href="#/ombak">Ombak</a>
-              <a class="dropdown-item" href="#/lucy">Lucy</a>
-              <a class="dropdown-item" href="#/core">Core</a>
-              <a class="dropdown-item" href="#/ferry">Ferry</a>
-              <a class="dropdown-item" href="#/inception">Inception</a>
-              <a class="dropdown-item" href="#/harry">Harry</a>
-              <a class="dropdown-item" href="#/petit">Petit</a>
-              <a class="dropdown-item" href="#/neo">Neo</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Water Purifier
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#/villaem2">Villaem</a>
+                <a class="dropdown-item" href="#/ombak">Ombak</a>
+                <a class="dropdown-item" href="#/lucy">Lucy</a>
+                <a class="dropdown-item" href="#/core">Core</a>
+                <a class="dropdown-item" href="#/ferry">Ferry</a>
+                <a class="dropdown-item" href="#/inception">Inception</a>
+                <a class="dropdown-item" href="#/harry">Harry</a>
+                <a class="dropdown-item" href="#/petit">Petit</a>
+                <a class="dropdown-item" href="#/neo">Neo</a>
 
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Air Purifier
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#/storm">Storm</a>
-              <a class="dropdown-item" href="#/lombok">Lombok ll</a>
-              <a class="dropdown-item" href="#/tuba">Tuba</a>
-            </div>
-          </li>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Air Purifier
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#/storm">Storm</a>
+                <a class="dropdown-item" href="#/lombok">Lombok ll</a>
+                <a class="dropdown-item" href="#/tuba">Tuba</a>
+              </div>
+            </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Bathroom
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#/lily">Lily</a>
-              <a class="dropdown-item" href="#/fontana">Fontana</a>
-              <!-- <a class="dropdown-item" href="#/bidet">Manual Bidet</a> -->
-            </div>
-          </li>
-          <!-- <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Bathroom
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#/lily">Lily</a>
+                <a class="dropdown-item" href="#/fontana">Fontana</a>
+                <!-- <a class="dropdown-item" href="#/bidet">Manual Bidet</a> -->
+              </div>
+            </li>
+            <!-- <li class="nav-item">
             <a class="nav-link" href="#/promo">Promotion</a>
           </li> -->
 
-          <li class="nav-item">
-            <div>
-              <a class="nav-link" href="#/contact">Contact us</a>
-            </div>
-          </li>
+            <li class="nav-item">
+              <div>
+                <a class="nav-link" href="#/contact">Contact us</a>
+              </div>
+            </li>
 
 
-        </ul>
-      </div>
-    </nav>
-    <div class="godown-60" id="godown"></div>
+          </ul>
+        </div>
+      </nav>
+      <div class="godown-60" id="godown"></div>
+    </div>
   </div>
-
   <script>
-    //insert this in your jquery
-    //control the resizing of menu and go down the content in the correct position
+
 
     $("#navMenu").resize(function () {
       $('#godown').height($("#navMenu").height() + 10);
@@ -173,7 +164,7 @@
       });
     });
 
-   
+
 
   </script>
 
@@ -202,11 +193,13 @@
   <script type="text/javascript" src="fontana/fontana.js"></script>
   <script type="text/javascript" src="bidet/bidet.js"></script>
   <script type="text/javascript" src="villaem2/villaem2.js"></script>
+  <script type="text/javascript" src="footer.js"></script>
 
 
 
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -215,11 +208,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
   <script>
     $(function () {
       $("#nav-placeholder").load("index.html");
     });
-
 
   </script>
 </body>

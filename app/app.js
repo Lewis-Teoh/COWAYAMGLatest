@@ -21,7 +21,7 @@ angular.module('webApp', [
   'webApp.lily',
   'webApp.fontana',
   'webApp.villaem2',
-
+  'webApp.footer'
   
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
